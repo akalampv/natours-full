@@ -1,7 +1,7 @@
 const http = require('http');
 const url = require('url');
 const fs = require('fs');
-const replaceTemplate = require('./modules/replaceTemplate');
+const replaceTemplate = require('modules/replaceTemplate');
 const slugify = require('slugify');
 
 const data = fs.readFileSync(`${__dirname}/dev-data/data.json`, 'utf-8');
